@@ -1,0 +1,9 @@
+zeebe.client.cloud.region=
+zeebe.client.cloud.clusterId=
+zeebe.client.cloud.clientId=
+zeebe.client.cloud.clientSecret=
+
+
+docuSign.clientId=
+docuSign.userId=
+docuSign.rsaKeyFile=docusign_private.key

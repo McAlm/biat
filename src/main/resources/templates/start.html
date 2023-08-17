@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<link rel="stylesheet" href="../app.css">
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+  </script>
+  <script>
+      function upload(){
+    var imgcanvas = document.getElementById("canv1");
+    var fileinput = document.getElementById("finput");
+    var image = new SimpleImage(fileinput);
+    image.drawTo(imgcanvas);
+  }
+  
+  </script>
+  </head>
+<body>
+
+<h1>Start EmployeeOnboarding Process</h1>
+<form action="/startProcess" method="post" enctype="multipart/form-data">
+  <div>
+    <label for="employeeName">Employee Name</label>
+    <input type="text" name="employeeName" />
+  </div>
+  <div>                                    
+    <label for="department">Department</label>
+  <input type="text" name="department"/>
+  </div> 
+  <div>                                    
+    <label for="email">Email Address</label>
+  <input type="text" name="email"/>
+  </div>                                   
+            
+                                      
+Filename:
+<input type="file" name="file" multiple="false" accept="image/*" id=finput onchange="upload()">
+</p>
+<canvas id= "canv1" ></canvas>
+<div>
+  <input type="submit" value="Submit">
+</div>
+  </form>
+  
+<p>
+</body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "text": "# Please approve this request",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1pkg65q",
+        "columns": null
+      },
+      "id": "Field_1djd84d"
+    },
+    {
+      "text": "Employee Name:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1hg8prk",
+        "columns": null
+      },
+      "id": "Field_0zrefhi"
+    },
+    {
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1hg8prk",
+        "columns": 10
+      },
+      "id": "Field_13412mm",
+      "key": "employeeName",
+      "readonly": true
+    },
+    {
+      "text": "Department:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1l983bn",
+        "columns": null
+      },
+      "id": "Field_1otv60m"
+    },
+    {
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1l983bn",
+        "columns": 10
+      },
+      "id": "Field_0z546u2",
+      "key": "department",
+      "readonly": true
+    },
+    {
+      "text": "Email Address:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0u6wekh",
+        "columns": null
+      },
+      "id": "Field_1gu53yc"
+    },
+    {
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0u6wekh",
+        "columns": 10
+      },
+      "id": "Field_09f9du4",
+      "key": "email",
+      "readonly": true
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ],
+      "label": "Approve this request?",
+      "type": "select",
+      "layout": {
+        "row": "Row_0g2wk0k",
+        "columns": null
+      },
+      "id": "Field_0emy08h",
+      "key": "managerApproved",
+      "defaultValue": "<none>"
+    },
+    {
+      "label": "Please enter your email address:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0vaj6m8",
+        "columns": null
+      },
+      "id": "Field_1ertiud",
+      "key": "managerEmail"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0tec1of",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.3.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "schemaVersion": 9
+}
