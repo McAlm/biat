@@ -11,6 +11,16 @@
       "id": "Field_1djd84d"
     },
     {
+      "label": "Image view",
+      "type": "image",
+      "layout": {
+        "row": "Row_07p6cq5",
+        "columns": null
+      },
+      "id": "Field_0nbo488",
+      "source": "=\"http://localhost:8080/\" + file"
+    },
+    {
       "text": "Employee Name:",
       "label": "Text view",
       "type": "text",
